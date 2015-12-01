@@ -6,7 +6,7 @@
 #    By: tvasseur <tvasseur@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/30 16:48:48 by tvasseur          #+#    #+#              #
-#    Updated: 2015/11/30 18:19:33 by tvasseur         ###   ########.fr        #
+#    Updated: 2015/12/01 19:13:21 by tvasseur         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,7 +65,13 @@ SRC = ft_atoi.c \
 		ft_strsub.c \
 		ft_strtrim.c \
 		ft_tolower.c \
-		ft_toupper.c
+		ft_toupper.c \
+		ft_lstadd.c \
+		ft_lstdel.c \
+		ft_lstdelone.c \
+		ft_lstiter.c \
+		ft_lstmap.c \
+		ft_lstnew.c
 
 OBJ = $(SRC:.c=.o)
 
